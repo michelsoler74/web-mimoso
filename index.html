@@ -8,7 +8,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <meta
       name="description"
-      content="MIMOSOBRAND ofrece los mejores collares y correas para tu perro. Calidad y estilo para tu mascota."
+      content="MIMOSOBRAND ofrece los mejores collares y correas para tu perro Calidad y estilo para tu mascota."
     />
   </head>
   <body>
@@ -32,6 +32,22 @@
         <div class="producto">
           <h3>Collar de Cuero</h3>
           <img src="images/collar.jpg" alt="Collar de Cuero" />
+          <div class="pedido">
+            <label for="talla-collar">Talla:</label>
+            <select id="talla-collar" name="talla">
+              <option value="pequena">Pequeña</option>
+              <option value="mediana">Mediana</option>
+              <option value="grande">Grande</option>
+            </select>
+            <label for="color-collar">Color:</label>
+            <select id="color-collar" name="color">
+              <option value="rojo">Rojo</option>
+              <option value="negro">Negro</option>
+              <option value="marron">Marrón</option>
+            </select>
+            <button class="boton-pedido">Realizar Pedido</button>
+          </div>
+
           <p>Descripción del collar de cuero.</p>
         </div>
         <div class="producto">
@@ -40,6 +56,7 @@
           <p>Descripción de la correa ajustable.</p>
         </div>
       </section>
+
       <section id="contacto">
         <h2>Contacto</h2>
         <form action="#" method="post">

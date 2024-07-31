@@ -37,3 +37,28 @@ footer {
   padding: 10px 0;
   text-align: center;
 }
+.pedido {
+  margin-top: 1em;
+}
+
+.pedido label {
+  margin-right: 0.5em;
+}
+
+.pedido select {
+  margin-right: 1em;
+}
+
+.boton-pedido {
+  background-color: #8b4513; /* Marrón */
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.boton-pedido:hover {
+  background-color: #6f3f1d;
+}
