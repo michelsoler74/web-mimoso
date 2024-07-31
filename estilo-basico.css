@@ -1,9 +1,39 @@
+/* Estilos para el body */
 body {
-    font-family: Arial, sans-serif;
-    background-image: url("images/logoMimoso.jpg");
-    color: #333;
+  font-family: Arial, sans-serif;
+  background-image: url("images/logoMimoso.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Hace que el fondo sea fijo */
+  background-position: center; /* Centra la imagen de fondo */
+  color: #333;
+  margin: 0; /* Elimina márgenes por defecto */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  text-align: center; /* Centra el texto dentro del contenedor */
+  display: flex; /* Utiliza flexbox para alinear las secciones */
+  flex-direction: column; /* Alinea las secciones verticalmente */
+  align-items: center; /* Centra las secciones horizontalmente */
+  gap: 20px; /* Espacio entre las secciones (opcional) */
+  padding: 20px; /* Padding alrededor del contenedor (opcional) */
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
 }
 
 h1 {
-    color: #2c3e50;
+  color: #2c3e50;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
 }
